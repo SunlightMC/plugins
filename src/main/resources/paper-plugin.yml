@@ -1,4 +1,4 @@
-name: testPlugin
+name: MythicKillCount
 version: '1.0-SNAPSHOT'
-main: crystal.testPlugin.TestPlugin
+main: crystal.MythicKillCount.Main
 api-version: '1.20'

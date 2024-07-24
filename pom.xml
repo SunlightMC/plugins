@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>crystal</groupId>
-    <artifactId>plugins</artifactId>
+    <artifactId>MythicKillCount</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>plugins</name>
+    <name>MythicKillCount</name>
 
     <properties>
         <java.version>21</java.version>
