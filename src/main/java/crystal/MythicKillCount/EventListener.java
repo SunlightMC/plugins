@@ -45,8 +45,8 @@ public class EventListener implements Listener {
         data.set(index, oldValue + 1);
         data.save(dataFile);
     }
-    public File getPlayerDataFile(UUID uuid){
-        String fileName = String.valueOf(uuid) + ".yml";
+    public static File getPlayerDataFile(UUID uuid){
+        String fileName = "MythicKillCount/data/" + String.valueOf(uuid) + ".yml";
         File playerFile = new File(Bukkit.getPluginsFolder(), fileName);
         //check if file already exists
         if(!playerFile.exists()) {

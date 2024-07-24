@@ -1,4 +1,12 @@
 name: MythicKillCount
 version: '1.0-SNAPSHOT'
-main: crystal.MythicKillCount.Main
+main: crystal.MythicKillCount.MythicKillCount
 api-version: '1.20'
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
+    MythicMobs:
+      load: BEFORE
+      required: true
