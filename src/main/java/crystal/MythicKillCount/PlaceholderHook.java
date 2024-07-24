@@ -3,7 +3,6 @@ package crystal.MythicKillCount;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.OfflinePlayer;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.util.UUID;
