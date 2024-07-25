@@ -39,7 +39,7 @@ public class EventListener implements Listener {
         }else{
             index = killed.getType().name();
         }
-        
+        index = index.toUpperCase();
         //Add data to file
         int oldValue = data.getInt(index);
         data.set(index, oldValue + 1);

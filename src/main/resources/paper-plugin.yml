@@ -10,3 +10,8 @@ dependencies:
     MythicMobs:
       load: BEFORE
       required: true
+commands:
+  mythickillcount:
+    description:
+    usage: /mythickillcount <option> <target> <mobID> <value>
+    aliases: [mkc]
